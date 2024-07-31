@@ -1,0 +1,648 @@
+* {
+    margin: 0px;
+}
+.nav-belt {
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    position: sticky;
+    margin-top: 0px;
+    color: white;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 180px;
+}
+.logo {
+    height: 50px;
+    background-image: url("images/logo.png");
+    background-size: cover;
+    width: 100%;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+.deliver {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 17px;
+}
+.location-img {
+    display: flex;
+    align-items: center;
+}
+.update-location {
+    margin-left: 5px;
+}
+.search-box {
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
+    align-items: center;
+}
+.type {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.all {
+    height: 40px;
+    width: 50px;
+    margin: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 10%;
+    background-color: lightsteelblue;
+    padding: 0px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.all:hover {
+    cursor: pointer;
+}
+.search {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.box {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    border: 0px;
+}
+.search-button {
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    background-color: rgb(200, 150, 32);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.search-button:hover {
+    cursor: pointer;
+}
+.language-div {
+    padding-left: 15px;
+    display: flex;
+}
+.india-icon {
+    padding-top: 8px;
+}
+.language-box {
+    height: 40px;
+    width: 40px;
+    background-color: #131921;
+    border-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+.account-and-lists {
+    display: flex;
+    width: 120px;
+    height: 40px;
+}
+.line1 {
+    font-size: 12px;
+    padding-left: 5px;
+}
+.anl {
+    background-color: #131921;
+    border-color: transparent;
+    color: white;
+    font-weight: bolder;
+}
+.returns-and-orders {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    padding-left: 10px;
+}
+.return {
+font-size: 12px;
+}
+.orders {
+font-weight: bold;
+display: flex;
+}
+.cart {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.nav-div-line2 {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    height: 39px;
+    background-color: #232f3e;
+    align-items: center;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+.menu-div {
+    position: relative;
+    left: 5px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.menu-all {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.menu-all-text {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.fresh-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    width: 64px;
+    height: 27px;
+    font-size: 16px;
+}
+.fresh-box {
+    background-color: #232f3e;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.amazon-mini-tv-div {
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.sell-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.best-seller-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.today-deal-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.mobile-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.customer-service-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.prime-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.prime-box {
+    background-color: #232f3e;
+    color: white;
+    border-color: transparent;
+    font-size: 16px;
+}
+.fashion-div {
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    height: 27px;
+    align-items: center;
+}
+.offerimg {
+    position: relative;
+    left: 142px;
+    height: 35px;
+}
+.bg-img-top {
+    width: 1293px;
+    height: 500px;
+    background-size: cover;
+    background-image: url("images/top-background.jpg");
+
+}
+.left-arrow {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 200px;
+}
+.right-arrow {
+    position: relative;
+    top: -130px;
+    left: 1250px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 200px;
+    color: white;
+}
+.offers {
+    position: absolute;
+    height: 50px;
+    bottom: 270px;
+
+}
+.offer1 {
+   height: 400px;
+   width: 300px;
+   background-color: white;
+   position: absolute;
+   left: 20px;
+   display: flex;
+}
+.offer1-text-div {
+    top: 10px;
+    width: 270px;
+    position: absolute;
+    left: 15px;
+}
+.offer1-text {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.cushion-cover-img {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    height: 100px;
+    width: 120px;
+}
+.cushion-cover {
+    width: 50px;
+}
+.cushion-cover-text-line1 {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cushion-cover-text-line2 {
+    position: absolute;
+    top: 193px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.figures {
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.figureimg {
+    height: 100px;
+    width: 120px;
+}
+.home-storage {
+    position: absolute;
+    top: 225px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.home-storageimg {
+    height: 100px;
+    width: 120px;
+}
+.lighting {
+    position: absolute;
+    top: 225px;
+    left: 160px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.lightingimg {
+    height: 100px;
+    width: 120px;
+}
+.offer2 {
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    left: 335px;
+    display: flex;
+}
+.offer2-text-div {
+    top: 10px;
+    width: 270px;
+    position: absolute;
+    left: 15px;
+}
+.offer2-text-line1 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.offer2-text-line2 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.boat {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.boatimg {
+    height: 100px;
+    width: 145px;
+}
+.boult {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.boultimg {
+    height: 100px;
+    width: 145px;
+}
+.noise {
+    position: absolute;
+    top: 225px;
+    left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.noiseimg {
+    height: 100px;
+    width: 145px;
+}
+.zebronics {
+    position: absolute;
+    top: 225px;
+    right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.zebronicsimg {
+    height: 100px;
+    width: 145px;
+}
+.offer3 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 670px;
+    display: flex;
+}
+.offer3-text-div {
+    top: 10px;
+    width: 270px;
+    position: absolute;
+    left: 15px;
+}
+.offer3-text-line1 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.offer3-text-line2 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.AC {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ACimg {
+    height: 100px;
+    width: 120px;
+}
+.refrigerators {
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.refrigeratorsimg {
+    height: 100px;
+    width: 125px;
+}
+.microwave {
+    position: absolute;
+    left: 20px;
+    top: 225px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.microwaveimg {
+    height: 100px;
+    width: 120px;
+}
+.washing-machine {
+    position: absolute;
+    right: 20px;
+    top: 225px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.washing-machineimg {
+    height: 100px;
+    width: 125px;
+}
+.offer4 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 985px;
+    display: flex;
+}
+.offer4-text-div {
+    top: 10px;
+    width: 270px;
+    position: absolute;
+    left: 15px;
+}
+.offer4-text-line1 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.offer4-text-line2 {
+    font-weight: bolder;
+    font-size: 27px;
+}
+.cleaning { 
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.cleaningimg {
+    height: 100px;
+    width: 120px;
+}
+.tyre {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.tyreimg {
+    height: 100px;
+    width: 120px;
+}
+.helmets {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.helmetsimg {
+    height: 100px;
+    width: 125px;
+}
+.vaccume {
+    position: absolute;
+    top: 230px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.vaccumeimg {
+    height: 100px;
+    width: 120px;
+}
+.more1-div {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.more2-div {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.more3-div {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.more4-div {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.more {
+    font-size: 15px;
+    text-decoration: none;
+    color: skyblue;
+}
+.more:hover {
+    color: red;
+}
+.history-div {
+    position: absolute;
+    height: 800px;
+    width: 1293px;
+    z-index: -1;
+    background: linear-gradient(180deg, skyblue, silver);
+}
+.history-search-div {
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    height: 300px;
+    width: 1265px;
+    background-color: white;
+}
+.history-search-heading {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bolder;
+    font-size: 27px;
+}
+.more5-div {
+    position: absolute;
+    left: 440px;
+    top: 27px;
+}
+.border-black:hover {
+    border: 2px double black;
+}
+.left-arrow-history {
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    left: 5px;
+    top: 140px;
+    opacity: 0%;
+}
+@keyframes arrows {
+    0% {
+        transition: ease-in;
+        transition-duration: 5s;
+        opacity: 100%;
+    }
+    100% {
+            opacity: 100%;
+        }
+}
+.history-search-div:hover .left-arrow-history {
+    animation: arrows 5s infinite ease-in;
+}
